@@ -1212,7 +1212,7 @@ h1 {
 }
 
 .schedule .nav-tabs .nav-item.show .nav-link:before, .schedule .nav-tabs .nav-link.active:before {
-  content: '';
+  /* content: ''; */
   position: absolute;
   left: 42%;
   bottom: -24px;
