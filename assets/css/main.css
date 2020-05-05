@@ -222,15 +222,17 @@ ul li, ol li {
 
 .btn-common {
   background-image: linear-gradient(65deg, #1a027f 0, #00b09b 100%);
-  box-shadow: 0 8px 16px rgba(255, 77, 121, 0.25);
+  box-shadow: 0 8px 16px rgba(0, 176, 155, 0.25);
   position: relative;
   z-index: 1;
 }
 
 .btn-common:hover {
   color: #fff;
-  background-image: linear-gradient(65deg, #ff527d 0, #ff85a3 100%);
-  box-shadow: 0 8px 16px rgba(255, 77, 121, 0.4);
+  /*background-image: linear-gradient(65deg, #ff527d 0, #ff85a3 100%);
+  box-shadow: 0 8px 16px rgba(255, 77, 121, 0.4);*/
+  background-image: linear-gradient(65deg, #1a027f 0, #00b09b 100%);
+  box-shadow: 0 8px 16px rgba(0, 176, 155, 0.25);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
